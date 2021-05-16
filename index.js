@@ -2,6 +2,9 @@ const discord = require("discord.js")
 const client = new discord.Client()
 const config = require("./config.json")
 
+
+// HAD TO REMOVE CONSOLE LOGS SORRY :(
+
 client.on("ready", async () => {
   const startlogs = [
     `${client.user.tag} Is Starting To Scan!`,
