@@ -1,6 +1,8 @@
 # discord-status
 Check Status Of a Discord User and Give Them Roles!
 
+If you use this for your server feel free to send me an invite on contact@zirobot.xyz!
+
 config.json Example:
 ```json
 {
