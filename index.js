@@ -15,13 +15,21 @@ client.on("ready", async () => {
   for (const startlog of startlogs) {
     console.log(startlog)
   }
+
   setInterval(function() {
     client.guilds.cache.get(config.serverid).members.fetch().then((members) => {
     members.forEach(async user => {
       user.presence.activities.forEach(async activity => {
-        if (activity.type === 'CUSTOM_STATUS' && activity.state.includes(config.statustext)) {
+        //console.log(activity)
+        if (activity.type === 'CUSTOM_STATUS' && activity.state.includes(config.statustext) && !user.roles.cache.has(config.roletogiveid)) {
           await user.roles.add(config.roletogiveid).catch(() => {})
-          if (config.consolelogwhenrolegiven === true) console.log(`${user.user.tag} => ${activity}: ${activity.state}`)
+          // ( HAD TO BE REMOVED FOR NOW! WILL BE FIXED SOON! ) if (config.consolelogwhenrolegiven === true) console.log(`(ROLE ADDED (CUSTOM STATUS INCLUDES ${config.statustext})) ${user.user.tag} => ${activity}: ${activity.state}`)
+        } else if (activity.type === 'CUSTOM_STATUS' && !activity.state.includes(config.statustext) && user.roles.cache.has(config.roletogiveid)) {
+          await user.roles.remove(config.roletogiveid).catch(() => {})
+          // ( HAD TO BE REMOVED FOR NOW! WILL BE FIXED SOON! ) if (config.consolelogwhenrolegiven === true) console.log(`(ROLE REMOVED (NO CUSTOM STATUS CHANGED)) ${user.user.tag} => ${activity}: ${activity.state}`)
+        } else if (activity.type != 'Custom Status' && user.roles.cache.has(config.roletogiveid)) {
+          await user.roles.remove(config.roletogiveid).catch(() => {})
+          // ( HAD TO BE REMOVED FOR NOW! WILL BE FIXED SOON! ) if (config.consolelogwhenrolegiven === true) console.log(`(ROLE REMOVED (NO CUSTOM STATUS DETECTED)) ${user.user.tag} => ${activity}: ${activity.state}`)
         }
       })
     })
