@@ -13,7 +13,7 @@ Check Status Of a Discord User and Give Them Roles!
 }
 ```
 
-# YOU MUST HAVE THE PRESENCE INTENT
+# YOU MUST HAVE THE PRESENCE INTENT ENABLED!
 
 
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
