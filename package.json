@@ -25,7 +25,14 @@
     "roles",
     "role",
     "giverole",
-    "example"
+    "example",
+    "giveaway,
+    "requirement",
+    "giveaway requirement",
+    "bot",
+    "discord bot",
+    "discord.js bot github",
+    "discord.js bot"
   ],
   "author": "ZiroCore",
   "license": "ISC"
