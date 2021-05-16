@@ -8,7 +8,7 @@ Check Status Of a Discord User and Give Them Roles!
   "statustext": "",  check for this status
   "roletogiveid": "",  role id to add to the user if the user had the statustext
   "serverid": "",  serverid (the role id must be in the server)
-  "consolelogwhenrolegiven": true,  console log every user that has the status
+  "consolelogwhenrolegiven": true,  console log every user that has the status ( HAD TO BE REMOVED WILL BE BACK IN THE NEXT UPDATE! )
   "checkeveryseconds": 5  check statuses every () seconds 
 }
 ```
