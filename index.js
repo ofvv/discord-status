@@ -19,16 +19,9 @@ client.on("ready", async () => {
     client.guilds.cache.get(config.serverid).members.fetch().then((members) => {
     members.forEach(async user => {
       user.presence.activities.forEach(async activity => {
-        if (activity.type === 'CUSTOM_STATUS' && activity.state === config.statustext) {
+        if (activity.type === 'CUSTOM_STATUS' && activity.state.includes(config.statustext)) {
           await user.roles.add(config.roletogiveid).catch(() => {})
-          if (config.consolelogwhenrolegiven === true) {
-            const logs = [
-              `${user.user.tag} => ${activity}: ${activity.state}`,
-            ]
-            for (const log of logs) {
-              console.log(log)
-            }
-          }
+          if (config.consolelogwhenrolegiven === true) console.log(`${user.user.tag} => ${activity}: ${activity.state}`)
         }
       })
     })
