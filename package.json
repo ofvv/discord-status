@@ -1,0 +1,32 @@
+{
+  "name": "status-checker-discord",
+  "version": "1.1.0",
+  "description": "Check Status Of a Discord User and Give Them Roles!",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ZiroCore/discord-status"
+  },
+  "keywords": [
+    "Discord",
+    "discord.js",
+    "javascript",
+    "github",
+    "open-source",
+    "status",
+    "statuses",
+    "roles",
+    "role",
+    "giverole",
+    "example"
+  ],
+  "author": "ZiroCore",
+  "license": "ISC"
+}
