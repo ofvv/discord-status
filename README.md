@@ -2,8 +2,8 @@
 <h3 align='center'> Check Status Of a Discord User and Give Them Roles!</h3>
 <h3 align='center'> If you use this for your server feel free to send me an invite to contact@zirobot.xyz!</h3>
 <h3 align='center'> Some of The Code Is Provided by https://discord.gg/devs</h3>
-<h1 align='center'> Discord Bots</h1>
-<h1 align='center'> config.json Example:</h1>
+
+# config.json Example:
 ```json
 {
   "token": "",  token of your discord bot
