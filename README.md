@@ -21,4 +21,4 @@
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
 
 
-# old code at: https://sourceb.in/duAxm5KeDr
+# Old Code With Interval At: https://sourceb.in/duAxm5KeDr
