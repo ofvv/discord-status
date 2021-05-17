@@ -14,7 +14,7 @@
     "roletogiveid": "role id" role id to add to the user if the user had the statustext
   },
   "options": {
-  "consolelogs": true true console log on event (options are true/false)
+  "consolelogs": true console log on event (options are true/false)
   }
 }
 ```
