@@ -27,6 +27,7 @@ client.on("ready", async () => {
 })
 
 client.on('presenceUpdate', async (oldm, newm) => {
+  try {
   let date = new Date()
   let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
     if (oldm.member.user.bot || newm.member.user.bot) return;
@@ -46,6 +47,7 @@ client.on('presenceUpdate', async (oldm, newm) => {
         newm.member.roles.remove(config.status.roletogiveid).catch(() => {})
         if (config.options.consolelogs === true) console.log(`[CONSOLE LOG] (ROLE REMOVED) => ${newm.user.tag} {${time}}`)
     }
+  } catch (e) {}
 })
 
 
