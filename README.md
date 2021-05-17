@@ -17,4 +17,5 @@ config.json Example:
 
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
 
-# Some Code Provided by https://discord.gg/devs old code at: https://sourceb.in/duAxm5KeDr
+# Some Code Provided by https://discord.gg/devs
+# old code at: https://sourceb.in/duAxm5KeDr
