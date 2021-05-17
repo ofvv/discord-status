@@ -1,14 +1,17 @@
 # discord-status
-Check Status Of a Discord User and Give Them Roles!
+## Check Status Of a Discord User and Give Them Roles!
 
-If you use this for your server feel free to send me an invite on contact@zirobot.xyz!
+## If you use this for your server feel free to send me an invite on contact@zirobot.xyz!
 
-config.json Example:
+## Some Code Provided by https://discord.gg/devs
+
+# config.json Example:
 ```json
 {
   "token": "",  token of your discord bot
   "statustext": "",  check for this status
   "roletogiveid": "",  role id to add to the user if the user had the statustext
+  "consolelogs": true console log on event (options are true/false)
 }
 ```
 
@@ -17,5 +20,5 @@ config.json Example:
 
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
 
-# Some Code Provided by https://discord.gg/devs
+
 # old code at: https://sourceb.in/duAxm5KeDr
