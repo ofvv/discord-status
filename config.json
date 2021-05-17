@@ -1,8 +1,5 @@
 {
   "token": "",
   "statustext": "",
-  "roletogiveid": "",
-  "serverid": "",
-  "consolelogwhenrolegiven": true,
-  "checkeveryseconds": 5
+  "roletogiveid": ""
 }
