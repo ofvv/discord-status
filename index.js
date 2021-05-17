@@ -7,7 +7,7 @@ client.on("ready", async () => {
     `${client.user.tag} Is Starting To Scan!`,
     `Type Of Status: Custom Status`,
     `Status Content: ${config.statustext}`,
-    `Role ID: ${config.serverid}`
+    `Role ID: ${config.roletogiveid}`
   ]
   for (const startlog of startlogs) {
     console.log(startlog)
