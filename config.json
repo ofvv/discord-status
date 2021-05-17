@@ -1,6 +1,12 @@
 {
-  "token": "",
-  "statustext": "",
-  "roletogiveid": "",
+  "bot": {
+    "token": "bot token"
+  },
+  "status": {
+    "statustext": "status to search",
+    "roletogiveid": "role id"
+  },
+  "options": {
   "consolelogs": true
+  }
 }
