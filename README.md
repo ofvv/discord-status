@@ -1,7 +1,7 @@
 <h1 align='center'> discord-status</h1>
 <h3 align='center'> Check Status Of a Discord User and Give Them Roles!</h3>
-<h3 align='center'> If you use this for your server feel free to send me an invite to contact@zirobot.xyz!</h3>
-<h3 align='center'> Some of The Code Is Provided by https://discord.gg/devs</h3>
+<h3 align='center'> If you use this for your server feel free to send me an invite to <a href="mailto:contact@zirobot.xyz">my contact email</a>.</h3>
+<h3 align='center'> Some of The Code Is Provided by <a href="https://discord.gg/devs">Dark Studio</a>.</h3>
 
 # config.json Example:
 ```json
