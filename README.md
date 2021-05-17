@@ -6,10 +6,16 @@
 # config.json Example:
 ```json
 {
-  "token": "",  token of your discord bot
-  "statustext": "",  check for this status
-  "roletogiveid": "",  role id to add to the user if the user had the statustext
-  "consolelogs": true console log on event (options are true/false)
+  "bot": {
+    "token": "bot token" token of your discord bot
+  },
+  "status": {
+    "statustext": "status to search", check for this status
+    "roletogiveid": "role id" role id to add to the user if the user had the statustext
+  },
+  "options": {
+  "consolelogs": true true console log on event (options are true/false)
+  }
 }
 ```
 
