@@ -8,11 +8,18 @@ old code with intervals instead of presenceUpdate event at: https://sourceb.in/d
 */
 
 client.on("ready", async () => {
+  let startdate = new Date(); let starttime = startdate.getHours() + ":" + startdate.getMinutes() + ":" + startdate.getSeconds();
+  let enabled; if (config.consolelogs === true) enabled = `Yes`; else if (config.consolelogs === false) enabled = `No`; else enabled = `Can't Detect`;
   const startlogs = [
-    `${client.user.tag} Is Starting To Check For Statuses!`,
+    `<---------------------------------------->`,
+    `Bot: ${client.user.tag} (ID: ${client.user.id}) {Started: ${starttime}}`,
+    `Bot Using: Discord.js v12.5.3`,
+    `Github Repository: github.com/ZiroCore/discord-status`,
     `Type Of Status: Custom Status`,
     `Status Content: ${config.statustext}`,
-    `Role ID: ${config.roletogiveid}`
+    `Role ID: ${config.roletogiveid}`,
+    `Console Logs: {Enabled: ${enabled}}`,
+    `<---------------------------------------->`
   ]
   for (const startlog of startlogs) {
     console.log(startlog)
