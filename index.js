@@ -3,8 +3,8 @@ const client = new discord.Client()
 const config = require("./config.json")
 
 /*
-some code provided by discord.gg/devs
-old code at: https://sourceb.in/duAxm5KeDr
+some of the code is provided by discord.gg/devs
+old code with intervals instead of presenceUpdate event at: https://sourceb.in/duAxm5KeDr
 */
 
 client.on("ready", async () => {
