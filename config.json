@@ -3,6 +3,7 @@
     "token": "bot token"
   },
   "status": {
+    "anystatus": false,
     "statustext": "status to search",
     "roletogiveid": "role id"
   },
