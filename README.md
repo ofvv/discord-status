@@ -10,6 +10,7 @@
     "token": "bot token" token of your discord bot
   },
   "status": {
+    "anystatus": false, if it is set to true everyone with a status will get a role if its set to false everybody with statustext will get a role
     "statustext": "status to search", check for this status
     "roletogiveid": "role id" role id to add to the user if the user had the statustext
   },
