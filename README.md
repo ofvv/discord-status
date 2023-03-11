@@ -23,5 +23,3 @@
 <h1 align='center'> YOU MUST HAVE THE PRESENCE INTENT ENABLED!</h1>
 
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
- 
-<h1 align='center'> Old Code With Interval At: <a href="https://sourceb.in/duAxm5KeDr">Sourcebin</a>.</h1>
